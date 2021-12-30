@@ -24,7 +24,7 @@ class MainWindow(QWidget):
 
         self._connect_to_db()
 
-        self.setWindowTitle("GUI")
+        self.setWindowTitle("F")
 
         self.vbox = QVBoxLayout(self)
 
