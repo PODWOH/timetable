@@ -61,7 +61,7 @@ class MainWindow(QWidget):
 
     def _create_shedule_tab(self):
         self.shedule_tab = QWidget()
-        self.tabs.addTab(self.shedule_tab, "odd week")
+        self.tabs.addTab(self.shedule_tab, "up")
 
         self.monday_gbox = QGroupBox("")
         self.tuesday_gbox = QGroupBox("")
@@ -100,7 +100,7 @@ class MainWindow(QWidget):
 
     def _create_shedule_tab2(self):
         self.shedule_tab0 = QWidget()
-        self.tabs.addTab(self.shedule_tab0, "even week")
+        self.tabs.addTab(self.shedule_tab0, "doun")
 
         self.monday_gbox0 = QGroupBox("")
         self.tuesday_gbox0 = QGroupBox("")
@@ -711,13 +711,7 @@ class MainWindow(QWidget):
 
         try:
             self.cursor.execute(
-                "update timetable set day='{}', week = '{}', subject='{}', room='{}', time='{}'  WHERE id='{}'".format(
-                    row[1],
-                    row[2],
-                    row[3],
-                    row[4],
-                    row[5],
-                    row[0]))
+                "update timetable set day='{}', week = '{}', subject='{}', room='{}', time='{}'  WHERE id='{}'".format(row[1], row[2], row[3], row[4], row[5], row[0]))
             self.conn.commit()
         except:
             QMessageBox.about(self, "Error", "Something wrong!")
@@ -734,13 +728,7 @@ class MainWindow(QWidget):
 
         try:
             self.cursor.execute(
-                "update timetable set day='{}', week = '{}', subject='{}', room='{}', time='{}'  WHERE id='{}'".format(
-                    row[1],
-                    row[2],
-                    row[3],
-                    row[4],
-                    row[5],
-                    row[0]))
+                "update timetable set day='{}', week = '{}', subject='{}', room='{}', time='{}'  WHERE id='{}'".format(row[1], row[2], row[3], row[4], row[5], row[0]))
             self.conn.commit()
         except:
             QMessageBox.about(self, "Error", "Something wrong!")
@@ -757,13 +745,7 @@ class MainWindow(QWidget):
 
         try:
             self.cursor.execute(
-                "update timetable set day='{}', week = '{}', subject='{}', room='{}', time='{}'  WHERE id='{}'".format(
-                    row[1],
-                    row[2],
-                    row[3],
-                    row[4],
-                    row[5],
-                    row[0]))
+                "update timetable set day='{}', week = '{}', subject='{}', room='{}', time='{}'  WHERE id='{}'".format(row[1], row[2], row[3], row[4], row[5], row[0]))
             self.conn.commit()
         except:
             QMessageBox.about(self, "Error", "Something wrong!")
@@ -780,13 +762,7 @@ class MainWindow(QWidget):
 
         try:
             self.cursor.execute(
-                "update timetable set day='{}', week = '{}', subject='{}', room='{}', time='{}'  WHERE id='{}'".format(
-                    row[1],
-                    row[2],
-                    row[3],
-                    row[4],
-                    row[5],
-                    row[0]))
+                "update timetable set day='{}', week = '{}', subject='{}', room='{}', time='{}'  WHERE id='{}'".format(row[1], row[2], row[3], row[4], row[5], row[0]))
             self.conn.commit()
         except:
             QMessageBox.about(self, "Error", "Something wrong!")
@@ -803,13 +779,7 @@ class MainWindow(QWidget):
 
         try:
             self.cursor.execute(
-                "update timetable set day='{}', week = '{}', subject='{}', room='{}', time='{}'  WHERE id='{}'".format(
-                    row[1],
-                    row[2],
-                    row[3],
-                    row[4],
-                    row[5],
-                    row[0]))
+                "update timetable set day='{}', week = '{}', subject='{}', room='{}', time='{}'  WHERE id='{}'".format(row[1], row[2], row[3], row[4], row[5], row[0]))
             self.conn.commit()
         except:
             QMessageBox.about(self, "Error", "Something wrong!")
@@ -826,13 +796,7 @@ class MainWindow(QWidget):
 
         try:
             self.cursor.execute(
-                "update timetable set day='{}', week = '{}', subject='{}', room='{}', time='{}'  WHERE id='{}'".format(
-                    row[1],
-                    row[2],
-                    row[3],
-                    row[4],
-                    row[5],
-                    row[0]))
+                "update timetable set day='{}', week = '{}', subject='{}', room='{}', time='{}'  WHERE id='{}'".format(row[1], row[2], row[3], row[4], row[5], row[0]))
             self.conn.commit()
         except:
             QMessageBox.about(self, "Error", "Something wrong!")
@@ -849,13 +813,7 @@ class MainWindow(QWidget):
 
         try:
             self.cursor.execute(
-                "update timetable set day='{}', week = '{}', subject='{}', room='{}', time='{}'  WHERE id='{}'".format(
-                    row[1],
-                    row[2],
-                    row[3],
-                    row[4],
-                    row[5],
-                    row[0]))
+                "update timetable set day='{}', week = '{}', subject='{}', room='{}', time='{}'  WHERE id='{}'".format(row[1], row[2], row[3], row[4], row[5], row[0]))
             self.conn.commit()
         except:
             QMessageBox.about(self, "Error", "Something wrong!")
@@ -872,13 +830,7 @@ class MainWindow(QWidget):
 
         try:
             self.cursor.execute(
-                "update timetable set day='{}', week = '{}', subject='{}', room='{}', time='{}'  WHERE id='{}'".format(
-                    row[1],
-                    row[2],
-                    row[3],
-                    row[4],
-                    row[5],
-                    row[0]))
+                "update timetable set day='{}', week = '{}', subject='{}', room='{}', time='{}'  WHERE id='{}'".format(row[1], row[2], row[3], row[4], row[5], row[0]))
             self.conn.commit()
         except:
             QMessageBox.about(self, "Error", "Something wrong!")
@@ -895,13 +847,7 @@ class MainWindow(QWidget):
 
         try:
             self.cursor.execute(
-                "update timetable set day='{}', week = '{}', subject='{}', room='{}', time='{}'  WHERE id='{}'".format(
-                    row[1],
-                    row[2],
-                    row[3],
-                    row[4],
-                    row[5],
-                    row[0]))
+                "update timetable set day='{}', week = '{}', subject='{}', room='{}', time='{}'  WHERE id='{}'".format(row[1], row[2], row[3], row[4], row[5], row[0]))
             self.conn.commit()
         except:
             QMessageBox.about(self, "Error", "Something wrong!")
@@ -918,13 +864,7 @@ class MainWindow(QWidget):
 
         try:
             self.cursor.execute(
-                "update timetable set day='{}', week = '{}', subject='{}', room='{}', time='{}'  WHERE id='{}'".format(
-                    row[1],
-                    row[2],
-                    row[3],
-                    row[4],
-                    row[5],
-                    row[0]))
+                "update timetable set day='{}', week = '{}', subject='{}', room='{}', time='{}'  WHERE id='{}'".format(row[1], row[2], row[3], row[4], row[5], row[0]))
             self.conn.commit()
         except:
             QMessageBox.about(self, "Error", "Something wrong!")
@@ -1086,9 +1026,7 @@ class MainWindow(QWidget):
         print(row, rowNum)
 
         try:
-            self.cursor.execute("update teacher set teacher = '{}', subject ='{}' WHERE id ='{}';".format(row[1],
-                                                                                                          row[2],
-                                                                                                          row[0], ))
+            self.cursor.execute("update teacher set teacher = '{}', subject ='{}' WHERE id ='{}';".format(row[1], row[2], row[0], ))
             self.conn.commit()
         except Exception as e:
             print(e)
